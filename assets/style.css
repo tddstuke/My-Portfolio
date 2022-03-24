@@ -49,28 +49,40 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(53, 35, 35, 0.5);
 }
 
-.hero {
-    margin-top: 20px;
-}
-#aboutme {
+#about-me,
+#my-work {
   display: flex;
- 
-  justify-content: space-between;
- 
+  padding: 20px;
 }
 
-#aboutme h2 {
-  /* flex: 0 100%; */
+h2 {
   padding: 20px;
   display: flex;
   justify-content: flex-end;
-  color:#483d8b;
+  color: #483d8b;
   text-shadow: 0 0 10px rgba(53, 35, 35, 0.5);
+  margin-top: 10px;
   border-right: 3px solid #4682b4;
-
+  flex: 12%;
+}
+#about-me div {
+    padding-left: 20px;
 }
 
-#aboutme div {
+#my-work a {
   padding: 20px;
+}
 
+#my-work {
+  padding-top: 20px;
+}
+
+.large-link {
+    flex: 66%
+}
+
+
+.text {
+    display:flexbox;
+    flex: 40%;
 }
