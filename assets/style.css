@@ -58,6 +58,7 @@ margin: 0px 100px 0 50px;
 }
 
 h2 {
+    font-size: 32px;
   padding: 20px;
   display: flex;
   justify-content: flex-end;
@@ -65,21 +66,25 @@ h2 {
   text-shadow: 0 0 10px rgba(53, 35, 35, 0.5);
   margin-top: 10px;
   border-right: 3px solid #483d8b;
+  max-width: 105px;
 
 }
 #about-me div {
     padding-left: 20px;
+    margin-top: 20px;
 
 }
 
 
+.profile-pic img {
+    border-top: 3px solid #483d8b;
+border-bottom: 3px solid #483d8b;
+border-left:3px solid #483d8b;
+}
 
 #my-work {
   padding-top: 20px;
-}
-
-#my-work h2 {
-    margin-left: 9px
+  max-width: 1000px;
 }
 
 .text {
@@ -90,12 +95,37 @@ h2 {
     display: flex;
     text-align: center;
     /* margin-right: 200px; */
-    width:
+    max-width: 450px;
+    border-top: 3px solid #483d8b;
+    border-right:3px solid #483d8b;
+    border-bottom:3px solid #483d8b;
 }
 
 .work-links a img {
 margin-top: 20px;
 margin-left: 20px;
+position: relative;
+border: 3px solid #483d8b;
 }
 
+h4 {
+    position: absolute;
+    top: 670px;
+    left: 199px;
+    background-color: #b0c4de;
+    padding: 15px 15px 0px 50px;
+    width: 150px;
+    
+}
 
+h5 {
+    position: absolute;
+    top:700px;
+    left: 199px;
+    background-color: #b0c4de;
+    padding: 0px 15px 15px 50px;
+    width: 150px;
+}
+.work-links a {
+    text-decoration: none;
+}
