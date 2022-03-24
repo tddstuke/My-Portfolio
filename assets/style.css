@@ -12,7 +12,7 @@ body {
 
 header {
   padding: 20px 35px;
-  background-color: lightsteelblue;
+  background-color: #b0c4de;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,10 +49,12 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(53, 35, 35, 0.5);
 }
 
-#about-me,
-#my-work {
+#about-me, #my-work {
   display: flex;
   padding: 20px;
+  /* justify-content: space-between; */
+margin: 0px 100px 0 50px;
+ 
 }
 
 h2 {
@@ -62,27 +64,38 @@ h2 {
   color: #483d8b;
   text-shadow: 0 0 10px rgba(53, 35, 35, 0.5);
   margin-top: 10px;
-  border-right: 3px solid #4682b4;
-  flex: 12%;
+  border-right: 3px solid #483d8b;
+
 }
 #about-me div {
     padding-left: 20px;
+
 }
 
-#my-work a {
-  padding: 20px;
-}
+
 
 #my-work {
   padding-top: 20px;
 }
 
-.large-link {
-    flex: 66%
+#my-work h2 {
+    margin-left: 9px
 }
-
 
 .text {
-    display:flexbox;
-    flex: 40%;
+    background-color:#b0c4de;
+    color:#483d8b;
+    font-weight: lightetr;
+    line-height: 1.3;
+    display: flex;
+    text-align: center;
+    /* margin-right: 200px; */
+    width:
 }
+
+.work-links a img {
+margin-top: 20px;
+margin-left: 20px;
+}
+
+
