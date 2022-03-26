@@ -49,114 +49,104 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(53, 35, 35, 0.5);
 }
 
-
-#about-me, #my-work {
+#about-me,
+#my-work {
   display: flex;
-  padding: 20px;
-  /* justify-content: space-between; */
-margin: 0px 100px 0 50px;
-flex: 100%
- 
 }
 
 h2 {
-    font-size: 32px;
+  font-size: 32px;
   padding: 20px;
   display: flex;
   justify-content: flex-end;
   color: #483d8b;
   text-shadow: 0 0 10px rgba(53, 35, 35, 0.5);
-  margin-top: 10px;
+  margin: 10px 0px 0px 20px;
   border-right: 3px solid #483d8b;
   max-width: 105px;
-
 }
 #about-me div {
-    padding-left: 20px;
-    margin-top: 20px;
-
+  padding-left: 20px;
+  margin-top: 20px;
 }
-
 
 .profile-pic img {
-    border-top: 3px solid #483d8b;
-border-bottom: 3px solid #483d8b;
-border-left:3px solid #483d8b;
+  border-top: 3px solid #483d8b;
+  border-bottom: 3px solid #483d8b;
+  border-left: 3px solid #483d8b;
 }
 
-#my-work {
-  padding-top: 20px;
-  /* max-width: 1000px; */
-}
 
 .text {
-    background-color:#b0c4de;
-    color:#483d8b;
-    font-weight: lightetr;
-    line-height: 1.3;
-    display: flex;
-    text-align: center;
-    /* margin-right: 200px; */
-    /* max-width: 450px; */
-    border-top: 3px solid #483d8b;
-    border-right:3px solid #483d8b;
-    border-bottom:3px solid #483d8b;
+  background-color: #b0c4de;
+  color: #483d8b;
+  font-weight: lightetr;
+  line-height: 1.3;
+  display: flex;
+  text-align: center;
+  /* margin-right: 200px; */
+  /* max-width: 450px; */
+  border-top: 3px solid #483d8b;
+  border-right: 3px solid #483d8b;
+  border-bottom: 3px solid #483d8b;
 }
 
-.work-links a img {
-margin-top: 20px;
-margin-left: 20px;
-position: relative;
-border: 3px solid #483d8b;
-}
-
-h4 {
-    position: absolute;
-    top: 670px;
-    left: 199px;
-    background-color: #b0c4de;
-    padding: 15px 15px 0px 50px;
-    width: 150px;
-    
+h4, h5{
+  background-color: #b0c4de;
+  padding: 15px 15px 0px 50px;
+  width: 200px;
+  margin: 0;
+  position: relative;
+  right: 49px;
+  font-weight:lighter;
 }
 
 h5 {
-    position: absolute;
-    top:700px;
-    left: 199px;
-    background-color: #b0c4de;
-    padding: 0px 15px 15px 50px;
-    width: 150px;
+  /* background-color: #b0c4de; */
+  padding: 0px 15px 15px 50px;
+  /* width: 200px; */
+  /* position:relative; */
+  /* right: 50px; */
 }
 .work-links a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .test {
   background-image: url(images/run-buddy.jpg.png);
   padding: 300px 50px 100px 50px;
-  margin: 50px;
+  margin: 20px 20px 20px 20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 90%;
-  background-attachment:;
+  position: relative;
+  border:3px solid #483d8b;
 }
 
 .test-2 {
   background-image: url(images/placeholder.png);
   padding: 150px 0px 60px 50px;
-  margin: 50px;
+  margin: 0px 0px 20px 20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 90%;
-  background-attachment:;
-  flex: 100%;
+  border:3px solid #483d8b;
+
 }
 
 .double-window {
- display: flex;
+  display: flex;
+  flex:100%;
 }
 
 .work-links {
-  width: 100%;
+  flex: 100%;
+}
+
+.right-window {
+  margin-right: 20px;
+}
+
+.double-window a {
+  flex: 100%;
 }
