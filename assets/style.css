@@ -49,11 +49,13 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(53, 35, 35, 0.5);
 }
 
+
 #about-me, #my-work {
   display: flex;
   padding: 20px;
   /* justify-content: space-between; */
 margin: 0px 100px 0 50px;
+flex: 100%
  
 }
 
@@ -84,7 +86,7 @@ border-left:3px solid #483d8b;
 
 #my-work {
   padding-top: 20px;
-  max-width: 1000px;
+  /* max-width: 1000px; */
 }
 
 .text {
@@ -95,7 +97,7 @@ border-left:3px solid #483d8b;
     display: flex;
     text-align: center;
     /* margin-right: 200px; */
-    max-width: 450px;
+    /* max-width: 450px; */
     border-top: 3px solid #483d8b;
     border-right:3px solid #483d8b;
     border-bottom:3px solid #483d8b;
@@ -128,4 +130,33 @@ h5 {
 }
 .work-links a {
     text-decoration: none;
+}
+
+.test {
+  background-image: url(images/run-buddy.jpg.png);
+  padding: 300px 50px 100px 50px;
+  margin: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
+  background-attachment:;
+}
+
+.test-2 {
+  background-image: url(images/placeholder.png);
+  padding: 150px 0px 60px 50px;
+  margin: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90%;
+  background-attachment:;
+  flex: 100%;
+}
+
+.double-window {
+ display: flex;
+}
+
+.work-links {
+  width: 100%;
 }
