@@ -63,11 +63,11 @@ justify-content: flex-end;
   margin: 0;
 }
 #about-me,
-#my-work {
+#my-work, #contact-me {
   display: flex;
 }
 
-#about-me h2, #my-work h2 {
+#about-me h2, #my-work h2, #contact-me h2 {
   font-size: 32px;
   padding: 20px;
   display: flex;
@@ -76,7 +76,7 @@ justify-content: flex-end;
   text-shadow: 0 0 10px rgba(53, 35, 35, 0.5);
   margin: 10px 0px 0px 20px;
   border-right: 3px solid #483d8b;
-  max-width: 105px;
+  max-width: 115px;
 }
 #about-me div {
   padding-left: 20px;
@@ -160,4 +160,25 @@ h5 {
 
 .double-window a {
   flex: 100%;
+}
+
+#contact-me ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  flex: 100%;
+}
+
+#contact-me ul li a {
+  padding: 20px 25px;
+  font-size: 2vw;
+  text-decoration: none;
+  color: #483d8b;
+  text-shadow: 0 0 10px rgba(53, 35, 35, 0.5);
+}
+
+#contact-me {
+  margin-bottom: 20px;
 }
