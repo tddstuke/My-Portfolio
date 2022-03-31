@@ -86,15 +86,11 @@ header nav ul li a {
 }
 
 #about-me {
-  /* padding-left: 20px; */
   margin-top: 20px;
 }
 
 .profile-pic img {
   border: 3px solid #483d8b;
-  /* border-bottom: 3px solid #483d8b;
-  border-left: 3px solid #483d8b; */
-  /* flex: 100%; */
 }
 
 .text {
@@ -241,7 +237,30 @@ a:hover,
 }
 
 @media screen and (max-width: 768px) {
-  article h2 {
-    font-size: 6px;
+  #about-me,
+  #my-work {
+    display: block;
+    text-align: center;
+  }
+
+  #about-me h2,
+  #my-work h2 {
+    text-align: center;
+    width: 100%;
+    display: inline;
+    border-right: none;
+    border-bottom: 3px solid #483d8b;
+  }
+
+  .text,
+  .work-links {
+    margin: 50px 0px 50px 0px;
+    width: 100%;
+  }
+
+  
+  }
+  #my-work h2 {
+    margin-top: 60px;
   }
 }
