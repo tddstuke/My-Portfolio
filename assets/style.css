@@ -61,7 +61,9 @@ header nav ul li a {
   background-color: #483d8b;
   padding: 15px;
   margin: 0;
+  text-align: center;
 }
+
 #about-me,
 #my-work,
 #contact-me {
@@ -182,7 +184,7 @@ h5 {
 #contact-me ul li a {
   padding: 20px 25px;
   font-size: 2vw;
-  /* text-decoration: underline; */
+
   color: #483d8b;
   text-shadow: 0 0 10px rgba(53, 35, 35, 0.5);
 }
@@ -191,16 +193,55 @@ h5 {
   margin-bottom: 20px;
 }
 
-/* .work-links,
-.text,
-#contact-me ul {
-  width: 74%;
-} */
-
 .text {
   width: 79%;
 }
 
 #about-me h2 {
   width: 21%;
+}
+
+a:hover,
+#contact-me ul li a:hover {
+  color: green;
+}
+
+.work-links a :hover {
+  opacity: 0.8;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+
+  header nav ul li a {
+    font-size: 25px;
+  }
+
+  #contact-me {
+    display: block;
+    text-align: center;
+  }
+
+  #contact-me h2 {
+    text-align: center;
+    width: 100%;
+    display: inline;
+    border-right: none;
+    border-bottom: 3px solid #483d8b;
+  }
+
+  #contact-me ul {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  article h2 {
+    font-size: 6px;
+  }
 }
