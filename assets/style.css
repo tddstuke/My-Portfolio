@@ -130,7 +130,7 @@ h5 {
   text-decoration: none;
 }
 
-.test {
+.large-link {
   background-image: url(images/run-buddy.jpg.png);
   padding: 200px 50px 100px 50px;
   margin: 20px 20px 20px 20px;
@@ -141,7 +141,7 @@ h5 {
   border: 3px solid #483d8b;
 }
 
-.test-2 {
+.small-link {
   background-image: url(images/placeholder.png);
   padding: 100px 0px 60px 50px;
   margin: 0px 0px 20px 20px;
@@ -252,15 +252,42 @@ a:hover,
     border-bottom: 3px solid #483d8b;
   }
 
-  .text,
   .work-links {
-    margin: 50px 0px 50px 0px;
+    margin: 50px 0px 0px 0px;
     width: 100%;
   }
 
-  
+  .text {
+    margin: 50px 0 20px 20px;
+    width: 95%;
   }
-  #my-work h2 {
-    margin-top: 60px;
+}
+
+@media screen and (max-width: 575px) {
+  .work-links,
+  .double-window,
+  .text {
+    display: block;
+  }
+
+  .text,
+  .large-link {
+    width: 100%;
+    margin: 40px 0 20px 0;
+  }
+
+  .small-link {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  #contact-me ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact-me ul li a {
+    font-size: 25px;
+    flex-wrap: wrap;
   }
 }
