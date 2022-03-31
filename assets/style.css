@@ -244,12 +244,14 @@ a:hover,
   }
 
   #about-me h2,
-  #my-work h2 {
+  #my-work h2,
+  #contact-me h2 {
     text-align: center;
     width: 100%;
     display: inline;
     border-right: none;
     border-bottom: 3px solid #483d8b;
+    margin-left: 0;
   }
 
   .work-links {
@@ -281,13 +283,19 @@ a:hover,
     margin: 0 0 20px 0;
   }
 
-  #contact-me ul {
+  #contact-me ul,
+  header nav ul {
     display: flex;
     flex-direction: column;
   }
 
-  #contact-me ul li a {
+  #contact-me ul li a,
+  header nav ul li a {
     font-size: 25px;
     flex-wrap: wrap;
+  }
+
+  .hero {
+    justify-content: center;
   }
 }
