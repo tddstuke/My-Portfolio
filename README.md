@@ -1,6 +1,6 @@
 #Todd Stuke's Portfolio
 
-This is my 1st custom built Portfolio. I designed it to showcase the projects and skills I'll be developing througout my coding bootcamp journey and beyond. In it you should find.
+This is my 1st custom built Portfolio. I designed it to showcase the projects and skills I'll be developing throughout my coding bootcamp journey and beyond. In it you should find.
 
 - A heading with links to navigate within the page
 - An about me section to tell you a little bit ABOUT ME
