@@ -131,12 +131,13 @@ h5 {
 }
 
 .large-link {
-  background-image: url(images/run-buddy.jpg.png);
+  background-image: url(images/wonder_destinations.png);
+  /* background-size: contain; */
   padding: 200px 50px 100px 50px;
   margin: 20px 20px 20px 20px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 90%;
+  /* background-position: 90%; */
   position: relative;
   border: 3px solid #483d8b;
 }
